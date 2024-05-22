@@ -18,9 +18,6 @@
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "17",
 			"installMaven": true
-		},
-		"ghcr.io/devcontainers/features/python:1": {
-			"version": "3.8"
 		}
 	},
 	"customizations": {
@@ -32,20 +29,18 @@
 				"GitHub.vscode-github-actions",
 				"ms-azuretools.vscode-docker",
 				"ms-dotnettools.csdevkit",
-				"vscjava.vscode-java-pack",
-				"ms-toolsai.jupyter",
-				"ms-python.python"
+				"vscjava.vscode-java-pack"
 			]
 		}
 	},
-	"postCreateCommand": "cd ./completesolution/node; npm install; cd ../../; dotnet restore ./completesolution/dotnet/MinimalAPI.sln; dotnet restore ./exercisefiles/dotnet/MinimalAPI.sln"
+	"postCreateCommand": ""
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [5000, 5001],
+	// "forwardPorts": [5000, 5001, 8080],
 	// "portsAttributes": {
-	//		"5001": {
-	//			"protocol": "https"
+	//		"8080": {
+	//			"protocol": "https,http"
 	//		}
 	// }
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
