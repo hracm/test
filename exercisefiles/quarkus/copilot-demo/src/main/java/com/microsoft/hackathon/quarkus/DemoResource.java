@@ -16,19 +16,6 @@ import jakarta.ws.rs.core.MediaType;
 * 
 */
 
-@Path("/")
-public class DemoResource {
-
-    @GET
-    @Path("/hello")
-    @Produces(MediaType.TEXT_PLAIN)
-    public String hello(@QueryParam("key") String key) {
-        if (key == null) {
-            return "key not passed";
-        }
-        return "hello " + key;
-    }
-}
 
 
 
