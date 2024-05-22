@@ -1,4 +1,4 @@
-# GitHub Copilot Hackathon
+# GitHub Copilot Hackathon for Java based on Quarkus
 
 Demo project for running labs to evaluate Copilot viability
 
@@ -48,43 +48,14 @@ https://code.visualstudio.com/
 
 https://docs.docker.com/engine/install/
 
-**For Nodejs**
-
-- [Install Node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- Install mocha: 
-
-Run:
-
-``` bash
- npm install --global mocha
- npm install axios
-```
-
-**For .NET**
-
-[Install .Net](https://dotnet.microsoft.com/download)
 
 **For Java**
 
 - [Install Java](https://learn.microsoft.com/en-us/java/openjdk/install)
 - [Install Maven](https://maven.apache.org/install.html)
 
-**For Python**
-- [Install Python](https://www.python.org/downloads/)
 
 ## Labs instructions
 
-- [Node Server](./exercisefiles/node/README.md)
-- [.NET Web API](./exercisefiles/dotnet/README.md)
-- [Java Spring Boot](./exercisefiles/springboot/README.md)
 - [Java Quarkus](./exercisefiles/quarkus/README.md)
-- [Python Data Engineer](./exercisefiles/dataengineer/README.md)
-- [Python Data Scientist](./exercisefiles/datascientist/README.md)
 
-## Challenges instructions
-
-- [Develop a shop cart](./challenges/eshop/eshop.md) 
-- [Develop a memory game](./challenges/memorygame/memorygame.md)
-- [Develop a chat based on websockets](./challenges/chatwebsockets/chatwebsockets.md)
-- [Behavior Driven Development (BDD) challenge](./challenges/bdd/README.md)
-- [Analysis cryptocurrency market](./challenges/cryptoanalisis/crypto.md)
