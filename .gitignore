@@ -530,3 +530,5 @@ FodyWeavers.xsd
 *.sln.iml
 .idea/
 
+# values
+*/telemetry/persistentpropertybag/microsoft.visualstudio.code.servicehost/values.xml
